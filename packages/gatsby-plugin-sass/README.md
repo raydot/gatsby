@@ -16,7 +16,7 @@ plugins: [`gatsby-plugin-sass`]
 
 2. Write your stylesheets in Sass/SCSS and require or import them as normal.
 
-```css:title="src/index.sass"
+```css:title="src/index.scss"
 html {
   background-color: rebeccapurple;
   p {
@@ -26,7 +26,7 @@ html {
 ```
 
 ```javascript
-import("./src/index.sass")
+import("./src/index.scss")
 ```
 
 ## Other options
